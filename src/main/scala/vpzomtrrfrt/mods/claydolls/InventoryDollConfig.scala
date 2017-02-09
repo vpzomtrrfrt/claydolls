@@ -65,7 +65,7 @@ class InventoryDollConfig(itemStack: ItemStack) extends IInventory {
   override def getInventoryStackLimit: Int = 1
 
   override def clear(): Unit = {
-    slots = Array.fill(18)(ItemStack.EMPTY)
+    slots = Array.fill(21)(ItemStack.EMPTY)
   }
 
   override def markDirty(): Unit = {}
